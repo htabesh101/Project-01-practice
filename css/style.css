@@ -50,6 +50,11 @@ body {
   font-family: Raleway Light;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (max-width: 600px) {
   body or yourdiv element {
     font: 14px / em/rm;
@@ -75,25 +80,20 @@ body {
   min-height: 70px;
 }
 
-.top-nav-bar a {
+.nav-listings {
   color: #e2574c;
   text-decoration: none;
 }
 
-.top-nav-bar logo {
-  float: left;
+.logo {
 }
 
 .shopping-cart {
-  float: right;
   border-radius: 50%;
   border: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  float: right;
+.top-nav-bar li {
   display: inline;
 }
 
