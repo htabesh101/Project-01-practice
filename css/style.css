@@ -66,35 +66,61 @@ ul {
   }
 }
 
-.container {
+/* nav bar */
+.container_nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  padding: 2%;
   width: 80%;
-  margin: auto;
-  overflow: hidden;
-  padding: 0;
+  margin: 0;
 }
 
-/* nav bar */
+.container-logo {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  order: 1;
+  flex-grow: 1;
+}
+
+.container-listing {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  order: 2;
+  flex-grow: 3;
+  align-items: center;
+}
+
+.container-listing ul {
+  display: flex;
+  display: row;
+  justify-content: space-between;
+}
+
+.container-cart {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  order: 3;
+  flex-grow: 1;
+}
+
 .top-nav-bar {
   background-color: white;
   padding-top: 30px;
   min-height: 70px;
 }
 
-.nav-listings {
+.nav-listing {
   color: #e2574c;
   text-decoration: none;
-}
-
-.logo {
 }
 
 .shopping-cart {
   border-radius: 50%;
   border: 0;
-}
-
-.top-nav-bar li {
-  display: inline;
 }
 
 /* home */
